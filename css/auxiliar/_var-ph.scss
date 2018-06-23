@@ -1,0 +1,52 @@
+$main-font: "Montserrat";
+$primary-color: #FFE26D;
+$secondary-color: #62497C;
+$btn-lighten-color: #ECECEC;
+
+$project-images: ("project_01.jpg", "project_02.png", "project_03.jpg", "project_04.jpg");
+
+%titles {
+	text-align: center;
+	font-size: 2.5rem;
+	margin: 0 0 50px;
+}
+
+%small-titles {
+	font-weight: 600;
+	font-size: .875rem;
+	text-transform: uppercase;
+}
+
+%paragraph {
+	font-size: 1.875rem;
+	font-weight: 200;
+}
+
+%small-paragraph {
+	font-family: 'Helvetica', $main-font, 'Arial', sans-serif;
+	font-size: .825rem;
+}
+
+%btn {
+	border-radius: 3px;
+	padding: 13px 25px;
+	border: 0;
+	display: inline-block;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: .625rem;
+	font-weight: 600;
+	background: #FFF;
+	color: #000;
+	transition: all 300ms ease-in-out;
+}
+
+%input {
+	border: 0;
+	background: #FFF;
+	color: darken(#E1E1E1, 20);
+	border-radius: 4px;
+	padding: 13px;
+	font-size: .625rem;
+	font-weight: 600;
+}
